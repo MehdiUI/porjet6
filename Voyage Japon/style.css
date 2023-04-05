@@ -10,8 +10,6 @@ html,
 body {
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 a {
@@ -108,6 +106,7 @@ nav {
     height: 815px;
     position: relative;
   }
+
   figure{
     width: 500%;
     height: 100%;
@@ -115,8 +114,8 @@ nav {
     top: 0;
     left: 0;
     margin: 0;
-    transition: all 10s linear;
-    animation: 15s slidy infinite ;
+    transition: all 20s linear;
+    animation: 20s slidy infinite ;
   }
   .slide{
     width: 20%;
@@ -131,23 +130,20 @@ nav {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
   }
+
   @keyframes slidy {
-    0%{
-      left:0px;
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
     }
-    33%{
-      left: -1920px;
-    }
-   
-    60%{
-      left: -3840px;
-    }
-    100%{
-      left: 0px;
-    }
-  
-  }
 .checkbox:checked+div .RS {
     display: none;
 }
@@ -203,14 +199,683 @@ nav {
     filter: opacity(0%);
 }
 
+
+.title{
+    margin-top: 1000px;
+    top: -160px;
+    justify-content: center;
+    position: absolute;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    font-family: murecho;
+    margin-left: 650px;
+}
+
+.paragraphe{
+    font-family: poppins;
+    margin-top: 920px;
+    top: 0px;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+#cadre{
+    width: 40px;
+    height: 40px;
+    margin-top: 900px;
+    top: 0px;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 260px;
+    text-align: justify;
+}
+#cadre1{
+    width: 40px;
+    height: 40px;
+    margin-top: 1015px;
+    top: 0px;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 260px;
+    text-align: justify;
+    transform: rotate(-90deg);
+}
+#cadre2{
+    width: 40px;
+    height: 40px;
+    margin-top: 1015px;
+    top: 0px;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 1600px;
+    text-align: justify;
+    transform: rotate(180deg);
+}
+#cadre3{
+    width: 40px;
+    height: 40px;
+    margin-top: 900px;
+    top: 0px;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 1600px;
+    text-align: justify;
+    transform: rotate(90deg);
+}
+
+.titre_selector {
+    font-family: poppins;
+    margin-top: 500px;
+    top: 0px;
+
+    display: flex;
+    justify-content: center;
+   
+    margin-left: 1000px;
+    text-align: justify;
+}
+
+.carte{
+    height: 863px;
+    width: 772px;
+    margin-top: -900px;
+}
+
+#carte{
+    margin-left: 128px;
+    margin-top: 224px;
+    height: 676px;
+    width: 772px;
+}
+.description{
+    font-family: murecho;
+    height: 96*6px;
+    width: 255px;
+    margin-left: 900px;
+    padding-top: 100px;
+    
+}
+
+.hokkaido{
+    font-size: small;
+    width: 255px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    height: 96px;
+    padding-top: 30px;
+    position: center ;
+    background-color: grey;
+}
+
+.kanto{
+    font-size: small;
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 270px;
+    box-shadow: -3px 2px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    height: 96px;
+}
+.chubu{
+    font-size: small;
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 255px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    height: 96px;
+    background-color: grey;
+}
+
+.kansai{
+    font-size: small;
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 255px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    height: 96px;
+    background-color: grey;
+}
+
+.chugoku{
+    font-size: small;
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 255px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    height: 96px;
+    background-color: grey;
+}
+
+.kyushu{
+    font-size: small;
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 255px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    height: 96px;  
+    background-color: grey; 
+}
+
+.descriptif{
+    position: absolute;
+    width: 557px;
+    height: 675px;
+    left: 1170px;
+    top: 1463px;
+    background: #FFFFFF;
+    box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.25);
+}
+
+.titre_circuits{
+    margin-left: -200px;
+}
+
+#chefcuisto{
+    height: 286px;
+    width: 429px;
+    margin-top: 50px ;
+    margin-left: 60px;
+    border-radius: 20px;
+    
+}
+
+#textechef{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    
+}
+
+#titrechef{
+    font-family: murecho;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+padding-top:60px;
+
+}
+
+#reservation{
+width: 200px;
+height: 73px;
+left: 10px;
+margin-top: 20px;
+
+background: #D32223;
+border-radius: 20px;
+font-family: poppins;
+font-family: 'Murecho';
+font-style: normal;
+font-weight: 700;
+font-size: 26.8235px;
+color: #FFFFFF;
+padding-bottom: 5px;
+border: white;
+margin-left: 20px;
+}
+
+.satisfaction{
+    margin-left: 350px;
+    font-family: murecho;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.8235px;
+    margin-top: -100px;
+}
+
+.titreguide{
+    margin-top: 300px;  
+    font-family: Murecho;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.cadreguide{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 75%;
+    justify-content: center;
+    margin-top: 100px;
+}
+.akiko{
+    width: 849px;
+    height: 566px;
+    margin-right: -80px;
+    align-self: flex-end;
+    z-index: 1;
+    border-radius: 40px;
+}
+
+.cadretexte{
+    width: 828px;
+    height: 613px;
+    left: 858px;
+    background-color: #F9F7F3;
+    text-align: justify;
+    padding: 100px; 
+    border-radius: 40px;   
+}
+
+.nomguide{
+    font-family: murecho;
+    font-weight: 500;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+
+.ageguide{
+    color: #777373;
+    font-family: murecho;
+}
+
+#bio{
+    color: #777373;
+    font-family: poppins;
+}
+
+#textakiko{
+    font-family: poppins;
+    font-size: 14px;
+}
+
+.siteincont{
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titresites{
+    text-align: center;
+    font-family: murecho;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.gridphoto1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.gridphoto2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.gridphoto3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+/* .news{
+    text-align: center;
+    
+}
+
+.newsform{
+    padding-top: 100px;
+    background-color: red;
+    height: 523px;
+    width: 1007px;
+    left: 460px;
+    top: 4992px;
+    border-radius: 16px;
+    margin-left: 500px;
+} */
+
+.titrenews{ 
+    text-align: center;
+    margin-top: 500px;
+    font-family: murecho;
+    font-size: 32px;
+    
+}
+#content{
+    width: 1007px;
+    height: 523.87px;
+    background:rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0.831544px 3.32618px 8.31544px rgba(0, 0, 0, 0.25);
+    margin-left: 950px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input[type='email']{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 41px;
+    width: 546px;
+    height: 69px;
+    font-size: 16px;
+    font-family: poppins;
+    margin-left: 225px;
+    background-color: #F9F7F3;
+    margin-top: 15px;
+}
+
+input[type='Nom']{
+        text-align: center;
+        padding: 10px;
+        border: 2px solid transparent;
+        border-radius: 41px;
+        width: 546px;
+        height: 69px;
+        font-size: 16px;
+        font-family: poppins;
+        margin-left: 225px;
+        background-color: #F9F7F3;
+        margin-top: 15px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#button{
+    text-decoration: none;
+    border-radius: 20px;
+    width: 27%;
+    display: inline-block;
+    padding: 8px;
+    margin-left: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    border: 2px solid transparent;
+    margin-left: 360px;
+    margin-top: 50px;
+    background-color: #D32223;
+}
+
+#button:hover{
+    border: 2px solid #aaa;
+}
+
+@media screen and (max-width: 736px){
+    input[type='email']{
+        display: block;
+        width: 100%;
+    }
+    #button{
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        width: 100%;
+        display: block;
+        margin-top: 5px;
+        position: absolute;
+    }
+}
+
+.titreboxnom{
+    text-align: center;
+    font-family: murecho;
+    margin-top: 100px;
+    height: 20px;
+    width: 200px;
+    margin-left: 250px;
+}
+
+.titreboxmail{
+    text-align: center;
+    font-family: murecho;
+    margin-top: 50px;
+    height: 20px;
+    width: 300px;
+    margin-left: 200px;
+}
+
+.partenaire{
+    font-family: murecho;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.livraison{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -90px;
+}
+.paiement_secure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.partenaire_officiel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -200px;
+}
 a:hover {
     color: red;
     transition: color 500ms ease;
 }
 
+.image23{
+    width: 105px;
+    height: 105px;
+    margin-left: 25%;
+}
+.image14{
+    width: 271.86px;
+height: 146.39px;
+margin-left: 5px;
+
+}
+.image15{
+width: 217.22px;
+height: 122.19px;
+margin-left: 25px;
+}
+
+.Paiements_securises{
+    padding-top: 100px;
+}
+
+.image22{
+    width: 105px;
+    height: 105px;
+    margin-left: 27%;
+}
+.image17{
+    width: 102.29px;
+    height: 63.93px;
+}
+
+.image18{
+    width: 102.29px;
+    height: 63.93px; 
+    margin-top: 20px;
+
+}
+.image19{
+    width: 102.29px;
+    height: 63.93px; 
+}
+.image20{
+    width: 102.29px;
+height: 63.93px;
+}
+.image21{
+    width: 102.29px;
+    height: 63.93px; 
+}
+
+.image24{
+    width: 105px;
+    height: 105px;
+    margin-left:40%;
+    
+}
+
+.image16{
+    width: 400px;
+    height: 40px;
+    margin-top: 138px;
+    margin-bottom: -20px;
+}
+
+.footer1{
+    position: absolute;
+    margin-top: 100px;
+    background-image: url(assets/img/image\ 25.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.planifier{
+    text-align: center;
+    font-family: murecho;
+    position: relative; 
+    color: #F9F7F3;
+    margin-top: 70px;
+}
+
+.conseiller{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: poppins;
+
+}
+
+.rsfooter{
+    margin-left: 850px;
+    margin-top: 50px;
+}
+
+.footer2{
+    background-color: rgba(48, 48, 48, 1);
+    margin-top: 45px;
+    width: 1920px;
+    height: 450px;
+    
+}
+
+.entreprise{
+    text-align: center;
+    height: 400px;
+    width: 342px;
+    color: #FFFFFF;
+    margin-left: 70px ;
+    font-family: POPPINS;
+}
+
+#logo_footer{
+    width: 250px;
+    height: 150px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+.france{
+    font-family: Murecho;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adress{
+    margin-left: 500px;
+    margin-top: -350px;
+    font-family: Poppins;
+    font-size: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 354px;
+    height: 350px;
+    color: #FFFFFF;
+    
+}
+
+.japon{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.help{
+    font-family: 'Poppins';
+    font-size: 20px;
+    width: 342px;
+    height: 350px;
+    margin-left: 1000px;
+    margin-top: -350px;
+    color: #FFFFFF;
+}
+
+
+.appel{
+    margin-left: 1400px;
+    margin-top: -300px;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: white;
+}
+
+#numero_font{
+    font-family: murecho;
+}
+
+#font_appel{
+    font-weight: 300;
+}
 @media screen and (max-width: 700px) {
     nav {
-        background-color: black;
+        width: 100%;
     }
     a {
         display: block;
