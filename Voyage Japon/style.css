@@ -36,7 +36,12 @@ nav {
     top: 0;
     z-index: 17;
 }
-
+.behindslider{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    display: none;
+}
 .ancre {
     align-items: flex-start;
     align-self: center;
@@ -199,25 +204,31 @@ nav {
     filter: opacity(0%);
 }
 
+#burger{
+    opacity: 0;
+}
+
+
+
 
 .title{
-    margin-top: 1000px;
-    top: -160px;
+    top: 20px;
     justify-content: center;
-    position: absolute;
+    text-align: center;
+    position: relative;
     font-weight: 1000;
     display: flex;
     justify-content: center;
     font-family: murecho;
-    margin-left: 650px;
+    bottom: 40px;
 }
 
 .paragraphe{
     font-family: poppins;
-    margin-top: 920px;
-    top: 0px;
+    
+    top: 160px;
     justify-content: center;
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
     margin-left: 300px;
@@ -225,113 +236,99 @@ nav {
     text-align: justify;
 }
 
-#cadre{
+
+
+#cadre0{
     width: 40px;
     height: 40px;
-    margin-top: 900px;
-    top: 0px;
-    justify-content: center;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-left: 260px;
-    text-align: justify;
+    top: 40px;
+    position: relative;
+    left: 260px;
+  
 }
 #cadre1{
     width: 40px;
     height: 40px;
-    margin-top: 1015px;
-    top: 0px;
-    justify-content: center;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-left: 260px;
-    text-align: justify;
+    position: relative;
+    top: 150px;
+    left: 215px;
     transform: rotate(-90deg);
 }
 #cadre2{
     width: 40px;
     height: 40px;
-    margin-top: 1015px;
-    top: 0px;
-    justify-content: center;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-left: 1600px;
-    text-align: justify;
+    left: 1496px;
+    top: 150px;
+    position: relative;
     transform: rotate(180deg);
 }
 #cadre3{
     width: 40px;
     height: 40px;
-    margin-top: 900px;
-    top: 0px;
-    justify-content: center;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-left: 1600px;
-    text-align: justify;
+    top: 35px;
+    left: 1450px;
+    position: relative;
     transform: rotate(90deg);
 }
 
 .titre_selector {
     font-family: poppins;
-    margin-top: 500px;
-    top: 0px;
-
+    top: 300px;
     display: flex;
     justify-content: center;
-   
-    margin-left: 1000px;
-    text-align: justify;
+    position: relative;
+    text-align: center;
 }
+
 
 .carte{
     height: 863px;
     width: 772px;
-    margin-top: -900px;
-}
-
-#carte{
-    margin-left: 128px;
-    margin-top: 224px;
-    height: 676px;
-    width: 772px;
-}
-.description{
-    font-family: murecho;
-    height: 96*6px;
-    width: 255px;
-    margin-left: 900px;
-    padding-top: 100px;
+    position: relative;
     
 }
 
+#carte{
+    position: relative;
+    left: 128px;
+    
+    height: 676px;
+    width: 772px;
+}
+
+.description{
+    font-family: murecho;
+    height: 576px;
+    width: 255px;
+    position: relative;
+    left: 900px;
+    top: 576px;
+    
+}
+
+
 .hokkaido{
-    font-size: small;
     width: 255px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
+    text-align: center;
     height: 96px;
     padding-top: 30px;
-    position: center ;
+    position: relative ;
     background-color: grey;
 }
 
 .kanto{
     font-size: small;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 30px;
     width: 270px;
     box-shadow: -3px 2px 7px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: center;
     height: 96px;
+    position: relative ;
 }
+
 .chubu{
     font-size: small;
     margin-top: 20px;
@@ -342,6 +339,7 @@ nav {
     justify-content: center;
     height: 96px;
     background-color: grey;
+    position: relative ;
 }
 
 .kansai{
@@ -354,6 +352,7 @@ nav {
     justify-content: center;
     height: 96px;
     background-color: grey;
+    position: relative ;
 }
 
 .chugoku{
@@ -366,11 +365,13 @@ nav {
     justify-content: center;
     height: 96px;
     background-color: grey;
+    position: relative ;
 }
 
 .kyushu{
     font-size: small;
     margin-top: 20px;
+   
     padding-top: 30px;
     width: 255px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -378,21 +379,22 @@ nav {
     justify-content: center;
     height: 96px;  
     background-color: grey; 
+    position: relative ;
 }
 
 .descriptif{
-    position: absolute;
+    position: relative;
     width: 557px;
     height: 675px;
     left: 1170px;
-    top: 1463px;
+    bottom: 865px;
     background: #FFFFFF;
     box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.25);
+    margin: 0;
 }
 
-.titre_circuits{
-    margin-left: -200px;
-}
+
+
 
 #chefcuisto{
     height: 286px;
@@ -456,37 +458,46 @@ margin-left: 20px;
 }
 
 .titreguide{
-    margin-top: 300px;  
+    position: relative;
     font-family: Murecho;
     font-size: 16px;
     text-align: center;
+    bottom: 700px;
+    width: 100%;
 
 }
 
 .cadreguide{
     display: flex;
     flex-direction: row-reverse;
-    height: 75%;
+    height: 100%;
+    width: 100%;
     justify-content: center;
-    margin-top: 100px;
+    position: relative;
+    bottom: 600px;
 }
 .akiko{
     width: 849px;
     height: 566px;
-    margin-right: -80px;
+    position: relative;
+    left: 0px;
+    bottom: 200px;
     align-self: flex-end;
     z-index: 1;
     border-radius: 40px;
 }
 
 .cadretexte{
+    position: relative;
     width: 828px;
     height: 613px;
-    left: 858px;
+    right: 80px;
     background-color: #F9F7F3;
     text-align: justify;
     padding: 100px; 
-    border-radius: 40px;   
+    border-radius: 40px; 
+    position: relative;
+    top: 50px;
 }
 
 .nomguide{
@@ -512,10 +523,11 @@ margin-left: 20px;
 }
 
 .siteincont{
-    width: 90%;
-    height: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 500px;
+
 }
 
 .titresites{
@@ -527,38 +539,84 @@ margin-left: 20px;
 
 .gridphoto1{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    padding-left: 180px;
+    padding-right: 180px;
+    position: relative;
+    width: 100%;
+    height: 270px;
+    gap: 40px; 
 }
 .gridphoto2{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    padding-left: 180px;
+    padding-right: 180px;
+    position: relative;
+    width: 100%;
+    height: 270px;
+    gap: 40px;
 }
+    
+
 .gridphoto3{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-/* .news{
-    text-align: center;
-    
+    padding-left: 180px;
+    padding-right: 180px;
+    position: relative;
+    width: 100%;
+    height: 270px;
+    gap: 40px;
 }
 
-.newsform{
-    padding-top: 100px;
-    background-color: red;
-    height: 523px;
-    width: 1007px;
-    left: 460px;
-    top: 4992px;
-    border-radius: 16px;
-    margin-left: 500px;
-} */
+.nara{
+    width: 30%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.kyoto{
+    width: 35%;
+    height: 250px;
+    object-fit: cover;
+}
+.nagoya{
+    width: 45%;
+    height: 250px;
+    object-fit: cover; 
+}
+
+.kamakura{
+    width: 38%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.okinawa{
+    width: 38%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.beppu{
+    width: 20%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.sapporo{
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+}
+.fukuoka{
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+}
 
 .titrenews{ 
     text-align: center;
-    margin-top: 500px;
+    position: relative;
+    bottom: 400px;
     font-family: murecho;
     font-size: 32px;
     
@@ -572,10 +630,11 @@ margin-left: 20px;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     box-shadow: 0.831544px 3.32618px 8.31544px rgba(0, 0, 0, 0.25);
-    margin-left: 950px;
-    margin-top: 300px;
+    left: 950px;
+    bottom: 100px;
     display: flex;
     flex-direction: column;
+    position: relative;
     
 }
 
@@ -594,17 +653,17 @@ input[type='email']{
 }
 
 input[type='Nom']{
-        text-align: center;
-        padding: 10px;
-        border: 2px solid transparent;
-        border-radius: 41px;
-        width: 546px;
-        height: 69px;
-        font-size: 16px;
-        font-family: poppins;
-        margin-left: 225px;
-        background-color: #F9F7F3;
-        margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 41px;
+    width: 546px;
+    height: 69px;
+    font-size: 16px;
+    font-family: poppins;
+    margin-left: 225px;
+    background-color: #F9F7F3;
+    margin-top: 15px;
 }
 
 input:focus{
@@ -627,26 +686,12 @@ input:focus{
 }
 
 #button:hover{
-    border: 2px solid #aaa;
+    background-color: white;
+    color: #D32223;
+    transition: ease 0.8s;
 }
 
-@media screen and (max-width: 736px){
-    input[type='email']{
-        display: block;
-        width: 100%;
-    }
-    #button{
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -o-box-sizing: border-box;
-        -ms-box-sizing: border-box;
-        width: 100%;
-        display: block;
-        margin-top: 5px;
-        position: absolute;
-    }
-}
+
 
 .titreboxnom{
     text-align: center;
@@ -795,7 +840,7 @@ height: 63.93px;
 .footer2{
     background-color: rgba(48, 48, 48, 1);
     margin-top: 45px;
-    width: 1920px;
+    width: 100%;
     height: 450px;
     
 }
@@ -812,8 +857,12 @@ height: 63.93px;
 #logo_footer{
     width: 250px;
     height: 150px;
-    margin-top: 100px;
-    margin-bottom: 5px;
+    position: relative;
+    top:50px;
+    bottom: 50px;
+}
+#pft2{
+    margin-top: 35px;
 }
 
 .france{
@@ -873,15 +922,4 @@ height: 63.93px;
 #font_appel{
     font-weight: 300;
 }
-@media screen and (max-width: 700px) {
-    nav {
-        width: 100%;
-    }
-    a {
-        display: block;
-        margin: 10px;
-    }
-    #acceuil {
-        color: red
-    }
-}
+

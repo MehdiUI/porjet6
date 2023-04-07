@@ -1,0 +1,637 @@
+@media screen and (max-width: 650px) {
+    html,
+    body{width: 100%;
+        height: 100%;
+
+    }
+    nav {
+        max-width: 100%;
+        min-width: 650px;
+        left: 0px;
+        display: block;
+        flex-direction: column;
+        transition: ease 1s;
+    }
+    .ancre{
+        flex-direction: column;
+        margin-left: 300px;
+        margin-top: -50px;
+        
+    }
+    .image{
+        margin-top: -30px;
+        margin-left: -70px;
+        height: 74px;
+        width: 234px;
+
+    }
+    .guide{
+        margin: 0;
+        padding: 0;
+        border-right-style: none;
+    }
+    .circuits{
+        margin: 0;
+        padding: 0;
+        border-right-style: none;
+    }
+    .contact{
+        margin: 0;
+        padding: 0;
+        border-right-style: none;
+    }
+    .nos-circuits{
+        margin: 0;
+        padding: 0;
+    }
+    .nos-guides{
+        margin: 0;
+        padding: 0;
+    }
+    .nous-contacter{
+        margin: 0;
+        padding: 0;
+    }
+    .RS{
+        
+        padding-left: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+    .RS{
+        display: none;
+    }
+    .ancre{
+        display: none;
+    }
+    
+    #cadre0{
+        display: none;
+    }
+
+    #cadre1{
+        display: none;
+    }
+    #cadre2{
+       display: none;
+    }
+    #cadre3{
+        display: none;
+    }
+    .burger {
+        position: relative;
+        width: 40px;
+        height: 30px;
+        background: transparent;
+        cursor: pointer;
+        display: block;
+      }
+      
+      .burger input {
+        display: none;
+      }
+      
+      .burger span {
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background: black;
+        border-radius: 9px;
+        opacity: 1;
+        margin-left: 500px;
+        margin-top: 20px;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+      }
+      
+      .burger span:nth-of-type(1) {
+        top: 0px;
+        transform-origin: left center;
+      }
+      
+      .burger span:nth-of-type(2) {
+        top: 50%;
+        transform: translateY(-50%);
+        transform-origin: left center;
+      }
+      
+      .burger span:nth-of-type(3) {
+        top: 100%;
+        transform-origin: left center;
+        transform: translateY(-100%);
+      }
+      
+      .burger input:checked ~ span:nth-of-type(1) {
+        transform: rotate(45deg);
+        top: 0px;
+        left: 5px;
+      }
+      
+      .burger input:checked ~ span:nth-of-type(2) {
+        width: 0%;
+        opacity: 0;
+      }
+      
+      .burger input:checked ~ span:nth-of-type(3) {
+        transform: rotate(-45deg);
+        top: 28px;
+        left: 5px;
+    }
+    .slider{
+        display: none;
+
+    }
+    .behindslider{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        display: flex;
+    }
+    .title{
+        position: relative;
+        width: 100%;
+        height: 100px;
+        top: 100px;
+        right: 150px;
+        text-align: center;
+        left: 5px;
+    }
+    
+    
+
+    .paragraphe{
+        width: 450px;
+        
+        font-size: 14px;
+        height: 250px;
+        bottom: 250px;
+        right: 37%;
+        
+    }
+    .titre_selector{
+        top: 200px;
+   }
+    
+   .titre_circuits{
+    font-size: 24px;
+   }
+    
+    #carte{
+     display: none;   
+    }
+    
+    .carte{
+        display: none;
+    }
+
+    .description{
+        left: 0;
+        height: 576px;
+        width: 100px;
+        position: relative;
+        top: 300px;
+    }
+
+   
+
+    .hokkaido{
+        width: 100px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        height: 70px;
+        position: relative ;
+        background-color: grey;
+        padding-top: 20px;
+    }
+
+    .hokkaidoh1{
+        font-size: 16px;
+    }
+
+    .kanto{
+       width: 120px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        height: 70px;
+        position: relative ;
+        background-color: white;
+
+        padding-top: 20px;
+    }
+
+    .kantoh1{
+        font-size: 16px; 
+    }
+
+    .chubu{
+        width: 100px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        height: 70px;
+        position: relative ;
+        background-color: grey;
+
+        padding-top: 20px;
+    }
+    
+    .chubuh1{
+        font-size: 16px;
+    }
+
+    .kansai{
+        width: 100px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        height: 70px;
+        position: relative ;
+        background-color: grey;
+
+        padding-top: 20px;
+    }
+    
+    .kansaih1{
+        font-size: 16px;
+    }
+
+    .chugoku{
+        width: 100px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        height: 70px;
+        position: relative ;
+        background-color: grey;
+
+        padding-top: 20px;
+    }
+
+    .chugokuh1{
+        font-size: 16px;
+    }
+    
+    .kyushu{
+        width: 100px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        height: 70px;
+        position: relative ;
+        background-color: grey;
+
+        padding-top: 20px;
+    }
+
+    .kyushuh1{font-size: 16px;}
+
+    .descriptif{
+        left: 120px;
+        position: relative;
+        bottom: 280px;
+        width: 500px;
+        height: 515px;
+    }
+
+    #textechef{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: justify;
+        align-items: center;
+        padding-left: 50px ;
+        padding-right: 50px ;
+        margin-top: 0;
+        bottom: 20px;
+        position: relative;
+    }
+    
+    #titrechef{
+        font-family: murecho;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top:30px;
+    padding-right: 30px;
+    }
+
+    #chefcuisto{
+        position: relative;
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    bottom: 30px;
+    right: 13px;
+    }
+
+    #reservation{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 150px;
+        height: 53px;
+        left: 45px;
+        top: 0px;
+        background: #D32223;
+        border-radius: 20px;
+        font-family: 'Murecho';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding-bottom: 5px;
+        border: white;
+        bottom: 10px;
+    }
+
+    .satisfaction{
+        position: relative;
+        font-family: murecho;
+        font-style: normal;
+        font-size: 20px;
+        text-align: center;
+        top: 20px;
+        right: 50px;
+    }
+
+    .titreguide{
+        position: relative;
+        TOP: 0px;
+        bottom: 100px;
+        
+    }
+    #titreguideh1{
+        bottom: 200px;
+        font-size: 24px;
+    }
+    .cadreguide{
+        position: relative;
+       top:0px;
+       width: 100%;
+       height: 500px;
+       top:200px;
+
+    }
+    .akiko{
+        width: 50%;
+        height: 400px;
+        position: relative;
+        align-self: flex-end;
+        z-index: 1;
+        border-radius: 40px;
+        object-fit: cover;
+        top: 10px;
+    }
+    
+    .cadretexte{
+        position: relative;
+        width: 500px;
+        height: 400px;
+        padding: 30px;
+        right: 30px;
+        
+        background-color: #F9F7F3;
+        text-align: justify;
+        
+        border-radius: 40px; 
+        position: relative;
+        text-overflow: ellipsis;
+       
+    }
+   
+    .nomguide{position: relative;
+        font-family: murecho;
+        font-weight: 500;
+        top: 40px;
+    }
+    
+    .ageguide{
+        left: 10px;
+        top: 20px;
+        color: #777373;
+        font-family: murecho;
+        position: relative;
+    }
+    
+    #bio{
+        left: 10px;
+        position: relative;
+        color: #777373;
+        font-family: poppins;
+        font-size: 14px;
+    }
+    
+    .textakiko{
+        left: 10px;
+        position: relative;
+        font-family: poppins;
+        font-size: 12px;
+        height: 170px;
+        text-overflow: ellipsis;
+        direction: ltr;
+        overflow: hidden;
+
+    }
+   
+
+    .siteincont{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 200px;
+    
+    }
+    
+    .titresites{
+        text-align: center;
+        font-family: murecho;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    
+    .gridphoto1{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        height: 170px;
+        gap: 20px; 
+    }
+    .gridphoto2{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        height: 170px;
+        gap: 20px;
+    }
+        
+    
+    .gridphoto3{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        height: 170px;
+        gap: 20px;
+    }
+    
+    .nara{
+        width:30%;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    .kyoto{
+        width:30%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .nagoya{
+        width: 35%;
+        height: 150px;
+        object-fit: cover; 
+    }
+
+    .kamakura{
+        width:38%;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    .okinawa{
+        width:30%;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    .beppu{
+        width:30%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .sapporo{
+        width: 50%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .fukuoka{
+        width: 50%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .titrenews{ 
+        text-align: center;
+        position: relative;
+        font-family: murecho;
+        font-size: 24px;
+    }
+
+
+    .news{
+        position: relative;
+        top:100px;
+        margin-bottom: 200px;
+    }
+
+    .titrenews{ 
+        text-align: center;
+        position: relative;
+        top: 0px;
+        font-family: murecho;
+        font-size: 32px;
+        margin-bottom: 40px;
+        
+    }
+
+    #content{
+        width: 100%;
+        height: 200px;
+       
+      
+        left: 310px;
+       
+        right: 300px;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+   
+    
+   
+
+    .titreboxnom{
+        position: relative;
+        font-family: murecho;
+        height: 20px;
+        width: 200px;
+        left: 1px;
+        display: none;
+        
+    }
+
+    input[type='Nom']{
+        position: relative;
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 41px;
+        width: 400px;
+        height: 69px;
+        font-size: 16px;
+        font-family: poppins;
+        right: 18%;
+        
+        background-color: #F9F7F3;
+        
+    }
+     .titreboxmail{
+        display: none;
+        position: relative;
+        text-align: center;
+        font-family: murecho;
+       
+        height: 20px;
+        width: 300px;
+        
+    }
+
+    input[type='email']{
+        position: relative;
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 41px;
+        width: 400px;
+        height: 69px;
+        font-size: 16px;
+        font-family: poppins;
+        right: 18%;
+        
+        background-color: #F9F7F3;
+    }
+
+    input:focus{
+        outline: none;
+    }
+    
+    #button{
+        height: 69px;
+        position: relative;
+        text-decoration: none;
+        border-radius: 20px;
+        width: 27%;
+        display: inline-block;
+        right: 130px;
+        bottom: 40px;
+        color: #FFFFFF;
+        text-align: center;
+        border: 2px solid transparent;
+        background-color: #D32223;
+
+    }
+    
+    #button:hover{
+        background-color: white;
+        color: #D32223;
+        transition: ease 0.8s;
+    }
+}
