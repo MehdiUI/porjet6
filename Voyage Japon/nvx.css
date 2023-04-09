@@ -159,16 +159,24 @@
     }
     
     
-
-    .paragraphe{
-        width: 450px;
-        
-        font-size: 14px;
-        height: 250px;
-        bottom: 250px;
-        right: 37%;
-        
+    .pdisplay{
+        display: flex;
+        position: relative;
+        justify-content: center;
     }
+    .paragraphe{
+        display: flex;
+        width: 70%;
+        font-family: poppins;
+        font-weight: 550;
+        color: #191919;
+        font-size: 16px;
+        top: 160px;
+        position: relative;
+        text-align: justify;
+        left: 0;
+    }
+
     .titre_selector{
         top: 200px;
    }
@@ -280,8 +288,9 @@
         left: 120px;
         position: relative;
         bottom: 280px;
-        width: 500px;
+        width: 100%;
         height: 515px;
+        
     }
 
     #textechef{
@@ -432,7 +441,7 @@
 
     .siteincont{
         width: 100%;
-        height: 100%;
+        height: 700px;
         position: relative;
         top: 200px;
     
@@ -519,114 +528,89 @@
         height: 150px;
         object-fit: cover;
     }
-    .titrenews{ 
-        text-align: center;
+   
+    .globalnews{
         position: relative;
-        font-family: murecho;
-        font-size: 24px;
+        display: flex;
+        width: 100%;
+        height: 630px;
+        justify-content: center;
+        top: 200px;
     }
-
-
     .news{
-        position: relative;
-        top:100px;
-        margin-bottom: 200px;
+        margin: 0;
     }
-
     .titrenews{ 
         text-align: center;
         position: relative;
-        top: 0px;
         font-family: murecho;
-        font-size: 32px;
+        font-size: 20px;
         margin-bottom: 40px;
-        
+        margin-top: 10px;
+       
+       
     }
 
     #content{
         width: 100%;
-        height: 200px;
-       
-      
-        left: 310px;
-       
-        right: 300px;
-        top: 100px;
+        height: 450px;
+        background:rgba(255, 255, 255);
+        border-radius: 20px;
+        align-self: center;
         display: flex;
         flex-direction: column;
         position: relative;
+        align-items: center;
+        box-shadow:none ;
+        
     }
-   
     
-   
-
-    .titreboxnom{
-        position: relative;
-        font-family: murecho;
-        height: 20px;
-        width: 200px;
-        left: 1px;
-        display: none;
-        
-    }
-
     input[type='Nom']{
-        position: relative;
+        align-self: center;
+        display: flex;
         text-align: center;
         border: 2px solid transparent;
         border-radius: 41px;
-        width: 400px;
-        height: 69px;
+        width: 500px;
+        height: 200px;
         font-size: 16px;
         font-family: poppins;
-        right: 18%;
-        
-        background-color: #F9F7F3;
-        
-    }
-     .titreboxmail{
-        display: none;
-        position: relative;
-        text-align: center;
-        font-family: murecho;
        
-        height: 20px;
-        width: 300px;
-        
+        background-color: #F9F7F3;
     }
-
+    
     input[type='email']{
-        position: relative;
+        align-self: center;
+        display: flex;
         text-align: center;
         border: 2px solid transparent;
         border-radius: 41px;
-        width: 400px;
-        height: 69px;
+        width: 500px;
+        height: 200px;
         font-size: 16px;
         font-family: poppins;
-        right: 18%;
-        
+        margin-top: 20px;
         background-color: #F9F7F3;
+       
     }
-
-    input:focus{
+    
+    
+    
+    input:focus{  
         outline: none;
     }
     
     #button{
-        height: 69px;
-        position: relative;
         text-decoration: none;
         border-radius: 20px;
-        width: 27%;
+        width: 40%;
         display: inline-block;
-        right: 130px;
-        bottom: 40px;
         color: #FFFFFF;
         text-align: center;
         border: 2px solid transparent;
+        
+        margin-top: 50px;
         background-color: #D32223;
-
     }
     
     #button:hover{
@@ -634,4 +618,191 @@
         color: #D32223;
         transition: ease 0.8s;
     }
-}
+    
+    
+    
+    .titreboxnom{
+        display: flex;
+        font-family: murecho;
+        margin-top: 30px;
+        height: 20px;
+        width: 200px;
+        align-self: center;
+        margin-bottom: 30px;
+    }
+    
+    .titreboxmail{
+        display: flex;
+        font-family: murecho;
+        margin-top: 50px;
+        height: 20px;
+        width: 204px;
+        align-self: center;
+    }
+    
+
+    .partenaire{
+        position: relative;
+        top: 300px;
+        font-family: murecho;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 500px;
+    }
+
+    footer{
+        display: flex;
+        position: relative;
+        top: 270px;
+        height: 450px;
+        width: 100%;
+        
+    }
+
+    .footer1{
+        display: flex;
+        position: relative;
+        background-image: url(assets/img/image\ 25.png);
+        width: 100%;
+        height: 400px;
+        top: 500px;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .planifier{
+        display: flex;
+        position: relative;
+        font-family: murecho;
+        color: #F9F7F3;
+        top: 170px;
+        justify-content: center;
+        width:100%;
+        height: 100px;
+        text-align: center;
+    }
+
+    .conseiller{ 
+        display: flex;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        top: 200px;
+        color: white;
+        font-family: poppins;
+        font-size: 20px;
+        width: 100%;
+        padding: 10px;
+    
+    }
+
+    .footer2{
+        position: relative;
+        display: flex;
+        background-color: rgba(48, 48, 48, 1);
+        width: 100%;
+        height: 1500px;
+        margin-top: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    
+    }
+    
+    .entreprise{
+        position: relative;
+        text-align: center;
+        height: 400px;
+        width: 342px;
+        color: #FFFFFF;
+        font-family: POPPINS;
+        left:25%; 
+    }
+    
+    #logo_footer{
+        width: 250px;
+        height: 150px;
+        position: relative;
+        top:20px;
+        bottom: 50px;
+        right: 20px;
+    }
+    #pft2{
+       font-family: poppins;
+       bottom: 30px;
+       right: 20px;
+    }
+    
+    .france{ 
+        position: relative;
+        font-family: Murecho;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 300px;
+        
+    }
+    
+    .adress{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-family: Poppins;
+        font-size: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 354px;
+        height: 350px;
+        color: #FFFFFF; 
+        left:25%; 
+        right: 20px;
+    }
+    
+    .japon{
+        position: relative;
+        display: flex;
+        top: 50px;
+        bottom: 20px;
+        
+    }
+    
+    .help{
+        top: 50px;
+        position: relative;
+        font-family: 'Poppins';
+        font-size: 20px;
+        width: 342px;
+        height: 350px;
+        color: #FFFFFF;
+        left:25%; 
+        text-align: center;
+    }
+    
+    
+    .appel{
+        position: relative;
+        display: flex;
+        top: 80px;
+        height: 100px;
+        width: 300px;
+        font-family: 'Poppins';
+        font-size: 20px;
+        color: white;
+        
+        left:28%; 
+        text-align: center;
+    }
+    
+    #numero_font{
+        font-family: murecho;
+    }
+    
+    #font_appel{
+        font-weight: 300;
+    }
+    
+}   
